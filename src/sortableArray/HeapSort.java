@@ -4,13 +4,11 @@ public class HeapSort {
 
 	public static void main(String[] args) {
 		char arr[] = { 'z', 'c', 'e', 'y', 'a' };
-0
-		HeapSort ob = new HeapSort();args
+		HeapSort ob = new HeapSort();
 		
 		ob.sort(arr);
 		System.out.println("Sorted array is");
 		printArray(arr);
-
 	}
 
 	public void sort(char[] arr) {
