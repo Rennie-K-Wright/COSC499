@@ -5,7 +5,7 @@ public class HeapSort {
 	public static void main(String[] args) {
 		char arr[] = { 'z', 'c', 'e', 'y', 'a' };
 		HeapSort ob = new HeapSort();
-		
+
 		ob.sort(arr);
 		System.out.println("Sorted array is");
 		printArray(arr);
