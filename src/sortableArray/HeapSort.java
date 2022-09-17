@@ -2,15 +2,6 @@ package sortableArray;
 
 public class HeapSort {
 
-	public static void main(String[] args) {
-		char arr[] = { 'z', 'c', 'e', 'y', 'a' };
-		HeapSort ob = new HeapSort();
-
-		ob.sort(arr);
-		System.out.println("Sorted array is");
-		printArray(arr);
-	}
-
 	public void sort(char[] arr) {
 		int N = arr.length;
 		for (int i = N / 2 - 1; i >= 0; i--)

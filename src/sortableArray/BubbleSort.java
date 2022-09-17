@@ -2,14 +2,6 @@ package sortableArray;
 
 public class BubbleSort {
 
-	public static void main(String[] args) {
-		int arr[] = { 1, 4, 2, 45, 10, 30, 35 };
-		
-		BubbleSort bs = new BubbleSort();
-		bs.sort(arr);
-		printArray(arr);
-	}
-
 	public void sort(int[] arr) {
 		int n = arr.length;
 		boolean swapOccurred = false;

@@ -1,0 +1,2 @@
+To use the sorting algorithms implemented in this project, edit the either array in test.java with the integers or characters you wish to sort.
+The sorting algorithm used for character sorting is Heap Sort, and the algorithm used for integer sorting is Bubble Sort.
